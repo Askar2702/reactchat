@@ -1,0 +1,15 @@
+.loginContainer {
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginLabel {
+  width: 400px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}

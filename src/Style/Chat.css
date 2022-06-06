@@ -1,0 +1,81 @@
+.containerChat {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.containerMessege {
+  width: 80%;
+  height: 70vh;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+.nameUser {
+  color: blue;
+  margin: 10px;
+}
+
+.messages {
+  width: fit-content;
+  padding: 5px;
+  margin: 10px;
+}
+
+.My {
+  margin-left: auto;
+}
+
+.MyGrid {
+  float: right;
+  display: flex;
+  justify-content: end;
+}
+
+.stranger {
+  margin-left: 10px;
+}
+
+.StrangerGrid {
+  float: left;
+}
+.formMessage {
+  width: 80%;
+  height: 8%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.formMessage input {
+  margin: 0 2%;
+  width: 96%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.formMessage input:valid {
+  outline: none;
+}
+
+.btn {
+  margin-top: 5px;
+  width: 10%;
+  height: 35px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background: none;
+  float: right;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(66, 66, 66, 0.192);
+}
